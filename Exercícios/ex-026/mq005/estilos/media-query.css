@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*Configuração de múltiplas telas*/
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #burger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+    
+
+    li {
+        display: inline-block;
+        padding: 10px 0px;
+    }
+
+    a {
+        display: inline;
+        border-top: none;
+    }
+}
+
+/*Desktops*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        font-size: 1.1em;
+    }
+
+    #burger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    li {
+        display: inline-block;
+        padding: 10px 0px;
+    }
+
+    a {
+        display: inline;
+        border-top: none;
+    }
+
+    main {
+        width: 70vw;
+    }
+}
+
+/*Telas grandes*/
+@media screen and (min-width: 1200px) {
+    body{
+        font-size: 1.2em;
+    }
+
+    #burger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    li {
+        display: inline-block;
+        padding: 10px 0px;
+    }
+
+    a {
+        display: inline;
+        border-top: none;
+    }
+
+    main {
+        width: 60vw;
+    }
+}
