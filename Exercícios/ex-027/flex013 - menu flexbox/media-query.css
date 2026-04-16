@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        margin: auto;
+        padding: 10px 10px 10px 0px;
+    }
+
+    nav {
+        margin: auto;
+    }
+
+    a {
+        display: block;
+        width: 90vw;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+}
